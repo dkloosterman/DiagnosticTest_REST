@@ -38,9 +38,9 @@ public class DiagnosticTest {
      * @return an instance of java.lang.String
      */
     @GET
-   @Produces("text/plain")
+    @Produces("text/plain")
 
-   public String getDiagTest() {
+    public String getDiagTest() {
         double result = Math.random();
         String resultString = "Diagnostic Test Result is: " + Double.toString(result);
         return resultString;
